@@ -11,7 +11,7 @@ Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 # Source0-size:	2537767
 Patch0:		%{name}-i18n.patch
 URL:		http://www.enlightenment.org/
-Requires:	enlightenment
+Requires:	enlightenment >= 0.16.7.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
