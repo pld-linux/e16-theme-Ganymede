@@ -1,6 +1,6 @@
 %define	_tname	Ganymede
-Summary:	Enlightenment Ganymede Theme
-Summary(pl):	Wystrój Ganymede dla enlightenmenta
+Summary:	Enlightenment Ganymede theme
+Summary(pl):	Wystrój Ganymede dla Enlightenmenta
 Name:		enlightenment-theme-%{_tname}
 Version:	0.16
 Release:	1
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment Ganymede Theme.
+Enlightenment Ganymede theme.
 
 %description -l pl
-Wystrój Ganymede dla enlightenmenta,
+Wystrój Ganymede dla Enlightenmenta.
 
 %prep
 %setup -q
