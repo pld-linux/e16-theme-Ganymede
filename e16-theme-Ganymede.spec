@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment Ganymede Theme
+Enlightenment Ganymede Theme.
 
 %description -l pl
-Wystrój Ganymede dla enlightenmenta
+Wystrój Ganymede dla enlightenmenta,
 
 %prep
 %setup -q
