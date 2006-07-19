@@ -11,6 +11,7 @@ Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 Patch0:		%{name}-i18n.patch
 URL:		http://www.enlightenment.org/
 Requires:	e16
+Obsoletes:	enlightenment-theme-%{_tname} <= 0.16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
