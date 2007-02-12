@@ -1,6 +1,6 @@
 %define	_tname	Ganymede
 Summary:	Enlightenment Ganymede theme
-Summary(pl):	Wystrój Ganymede dla Enlightenmenta
+Summary(pl.UTF-8):   WystrÃ³j Ganymede dla Enlightenmenta
 Name:		e16-theme-%{_tname}
 Version:	0.16.8
 Release:	1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Enlightenment Ganymede theme.
 
-%description -l pl
-Wystrój Ganymede dla Enlightenmenta.
+%description -l pl.UTF-8
+WystrÃ³j Ganymede dla Enlightenmenta.
 
 %prep
 %setup -q
